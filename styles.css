@@ -296,7 +296,7 @@ nav {
 .intro-image {
     width: 100%;
     height: 500px;
-    background-image: url(assets/img/snowboarding_category_1766488198455.png);
+    background-image: url(assets/img/intro-sports.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 4px;
@@ -350,18 +350,7 @@ nav {
     align-items: center;
     padding: 0 10%;
 }
-.philosophy-image-1 {
-    background-image: url(assets/img/ns.jpg);
-    background-size: cover;
-    background-position: top;
-		background-repeat: no-repeat;
-}
-.philosophy-image-2 {
-    background-image: url(assets/img/eso.jpg);
-    background-size: cover;
-    background-position: top center;
-		background-repeat: no-repeat;
-}
+
 .philosophy-column {
     display: flex;
     flex-direction: column;
