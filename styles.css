@@ -373,12 +373,18 @@ nav {
 			line-height: 1.8;
 	}
 }
+.philosophy-img {
+	position: relative;
+}
 
 .philosophy-column.text-overlay-left {
+	position: absolute;
 	max-width: 600px;
 	margin-right: auto;
 
 	padding-top: 6rem;
+	padding-left: 6rem;
+
 	margin-bottom: auto;
 
 	p {
@@ -387,10 +393,13 @@ nav {
 }
 
 .philosophy-column.text-overlay-right {
+	position: absolute;
 	max-width: 600px;
-	margin-left: auto;
+	left: 55%;
 
 	padding-top: 6rem;
+	padding-right: 6rem;
+
 	margin-bottom: auto;
 
 	p {
@@ -1239,9 +1248,7 @@ nav {
 	.nav-container {
 		padding: 1rem 2rem;
 	}
-	h1 {
-		font-size: 4rem;
-	}
+	
 	.intro-content,
 	.philosophy-row,
 	.footer-grid,
@@ -1249,14 +1256,26 @@ nav {
 		grid-template-columns: 1fr;
 		gap: 2rem;
 	}
-	.intro-image,
-	.philosophy-bg-row {
+	.intro-image {
 		height: 400px;
 	}
+
 	.intro-section,
 	.philosophy-section,
 	.main-footer {
 		padding: 3rem 0;
+	}
+
+	.philosophy-column.text-overlay-left, .philosophy-column.text-overlay-right {
+		max-width: 1200px;
+		position: unset;
+		padding: 0;
+
+		p {
+			font-size: 1.1rem;
+			color: var(--text-muted);
+			line-height: 1.8;
+		}
 	}
 
 	.sports-intro {
